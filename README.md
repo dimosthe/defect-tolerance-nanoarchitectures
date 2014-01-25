@@ -25,6 +25,18 @@ is that within the original n × n partially-defective crossbar a reduced k × k
 k should be found from the given n, which is based both on the defect rate of the crossbar and the 
 efficiency of the particular mapping algorithm.
 
+## Mapping algorithms
+The idea behind each algorithm can be found in:
+* M.B. Tahoori. A mapping algorithm for defect-tolerance of reconfigurable nano-
+architectures. pages 668–672. Computer-Aided Design, 2005. ICCAD-2005. IEEE/ACM
+International Conference on, Nov. 2005. (exact.c, tahoori.c)
+* A.A. Al-Yamani, S. Ramsundar, and D.K. Pradhan. A defect tolerance scheme for
+nanotechnology circuits. Circuits and Systems I: Regular Papers, IEEE Transactions
+on, 54(11):2402–2409, Nov. 2007. (ram.c)
+* Costas Argyrides, G. Dimosthenous, Pradhan D.K., C. A. Lisboa, and L. Carro. Re-
+liability aware yield improvement technique for nanotechnology based circuits. ACM,
+2009. (costas.c)  
+
 ## Requirements
 * gcc compiler
 * Windows 
