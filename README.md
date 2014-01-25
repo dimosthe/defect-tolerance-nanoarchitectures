@@ -34,9 +34,15 @@ International Conference on, Nov. 2005. (exact.c, tahoori.c)
 nanotechnology circuits. Circuits and Systems I: Regular Papers, IEEE Transactions
 on, 54(11):2402–2409, Nov. 2007. (ram.c)
 * Costas Argyrides, G. Dimosthenous, Pradhan D.K., C. A. Lisboa, and L. Carro. Re-
-liability aware yield improvement technique for nanotechnology based circuits. ACM,
-2009. (costas.c)  
+liability aware yield improvement technique for nanotechnology based circuits. ACM, 2009.
+(costas.c)  
 
 ## Requirements
 * gcc compiler
 * Windows 
+
+## How to run
+The algorithms take as input 3 parameters
+* N (NxN partially-defective crossbar)
+* P (defect rate %)
+* T (number of samples)
